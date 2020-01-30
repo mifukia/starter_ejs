@@ -1,0 +1,58 @@
+@for $i from 0 through 200 {
+  .u-mt-#{$i} {
+    margin-top:#{$i}px;
+  }
+}
+
+@for $i from 0 through 100 {
+  .u-mt-sp-#{$i} {
+    @include sp {
+      margin-top:#{$i}#{'%'};
+    }
+  }
+}
+
+@for $i from 0 through 200 {
+  .u-pt-#{$i} {
+    padding-top:#{$i}px;
+  }
+}
+
+@for $i from 0 through 100 {
+  .u-pt-sp-#{$i} {
+    @include sp {
+      padding-top:#{$i}#{'%'};
+    }
+  }
+}
+
+@for $i from 1 through 50 {
+  .u-fz-#{$i} {
+    font-size:#{$i/10}rem;
+  }
+}
+
+@for $i from 1 through 50 {
+  .u-fz-sp-#{$i} {
+    @include sp {
+      font-size: calc(#{$i} /750 *100#{'vw'});
+    }
+  }
+}
+
+@for $i from 1 through 5 {
+  .u-indent-#{$i} {
+    text-indent:-#{$i}em;
+    padding-left: #{$i}em;
+  }
+}
+
+@for $i from 1 through 100 {
+  .u-wideperSp-#{$i} {
+    @include sp {
+      width: #{$i}#{'%'};
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
