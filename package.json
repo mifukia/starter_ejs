@@ -43,7 +43,7 @@
     "imagemin-pngquant": "^5.1.0",
     "jquery": "2.2.1",
     "jsdoc": "^3.6.3",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "object-fit-images": "^3.2.4",
     "picturefill": "^3.0.3",
     "sass-loader": "^7.0.1",
